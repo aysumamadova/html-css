@@ -1,0 +1,300 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+nav ul{
+    display: flex;
+}
+nav li{
+    padding: 2%;
+    padding-left: 20%;
+}
+li{
+    list-style-type:none ;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    background-color: transparent;
+}
+nav .nav .main{
+    padding-left: 40%;
+}
+nav .nav .main li a{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.1rem;
+}
+nav .nav .logo{
+    padding-left: 10%;
+}
+nav .nav .logo h3{
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    font-size: 1.5rem;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+h2{
+    font-size: 3rem;
+}
+#intro{
+    height: 650px;
+}
+#intro .title{
+    text-align: center;
+    padding-top: 10%;
+    color: white;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    line-height: 0.5;
+}
+#intro .divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: 0ch;
+}
+#intro .info p{
+    font-size: 1.25rem;
+}
+#intro .info{
+    text-align: center;
+    padding-top: 1%;
+    color: white;
+    line-height: 0.5;
+}
+#intro .button{
+    text-align: center;
+    padding-top: 3%;
+}
+#intro .button a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: #f4623a;
+}
+#intro .ikinci{
+    padding-bottom: 0%;
+}
+header{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(/assets/image/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+
+
+
+
+#started{
+    background-color: #f4623a;
+    padding-top: 1px;
+    min-height: 400px;
+}
+#started  .button a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: black;
+    background-color: #fff;
+}
+#started .divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #fff;
+    opacity: 1;
+    border: 0ch;
+}
+#started .title{
+    text-align: center;
+    padding-top: 5%;
+    color: white;
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 500;
+    
+}
+#started .title h2{
+    font-size: 33px;
+}
+
+#started .info p{
+    font-size: 1.20rem;
+}
+#started .info{
+    text-align: center;
+    color: white;
+    line-height: 0.5;
+}
+#started .button{
+    text-align: center;
+    padding-top: 3%;
+}
+
+
+
+svg{
+    /* font-size: 60px; */
+    color: #f4623a;
+}
+#service .header{
+    text-align: center;
+    padding-top: 5%;
+}
+#service .header h3{
+    font-size: 33px;
+}
+#service .divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: 0ch;
+}
+#service .cards{
+    display: flex;
+    width: 90%;
+    padding-left: 5%;
+ 
+}
+#service .cards .card{
+    text-align: center;
+    margin: 2%;
+    margin-top: 3%;
+}
+#service .cards .card h4{
+font-size: 25px;
+font-weight: 500;
+line-height: 0.1rem;
+}
+#service .cards p{
+    color: #6c757d ;
+}
+
+
+
+#galery img{
+    width: 100%;
+}
+#galery{
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+#download  a{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: black;
+    background-color: #fff;
+}
+#download .a{
+    padding-top: 1%;
+}
+#download{
+    text-align: center;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    height: 330px;
+    padding-top: 1%;
+}
+#download h3{
+    padding-top: 5%;
+    font-size: 30px;
+}
+#download a{
+}
+
+.row{
+    display: flex;
+    line-height: 0;
+}
+
+
+
+#contact{
+    text-align: center;
+}
+#contact .divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    border: 0ch;
+}
+#contact h3{
+    font-size: 30px;
+}
+#contact .title{
+    padding-top: 5%;
+}
+#contact p{
+    line-height: 4px;
+    color: #6c757d !important;
+    font-size: 19px;
+}
+#contact .button{
+    padding-top: 2%;
+}
+#contact .button a{
+    padding: 1.25rem 17.55rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    color: #fff;
+    background-color: #f4623a;
+}
+#contact .en{
+    width: 40%;
+    height: 40px;
+    padding-top: 1%;
+    margin-top: 1%;
+    font-size: 17px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+#contact svg{
+    padding-top: 3%;
+}
+#contact .form{
+    padding-top: 3%;
+}
+
+
+
+#footer{
+    text-align: center;
+    padding: 1%;
+    padding-top: 5%;
+}
